@@ -1,0 +1,6 @@
+# Full newspaper text and raw HTML. Copyrighted; keep local.
+data/raw/
+refs/
+.venv/
+__pycache__/
+.DS_Store

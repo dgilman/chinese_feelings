@@ -1,0 +1,16 @@
+[project]
+name = "feelings"
+version = "0.1.0"
+description = "Count '伤害中国人民感情' in the People's Daily, 1946 to today"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/feelings"]
